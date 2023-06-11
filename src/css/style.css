@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(/fonts/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.header__block {
+    max-width: 1440px;
+    height: 116px;
+}
+.header__block-contetnt {
+    margin-left: 160px;
+    max-width: 1120px;
+    display: flex;
+}
+.header__logo {
+    margin-left: 6px;
+    margin-top: 47px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #1C2A39;
+}
+.header__nav {
+    margin-left: 243px;
+    width: 372px;
+}
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 56px;
+}
+.nav__list-item {
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    text-transform: uppercase;
+}
+.nav__list-link {
+    text-decoration: none;
+    color: #5C6A79;
+}
+.nav__list-link:hover {
+    cursor: pointer;
+    font-weight: 900;
+    color: #1C2A39;
+}
+.header__icon {
+    margin-left: 252px;
+    margin-top: 54px;
+    display: flex;
+    width: 105px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__icon:hover {
+    cursor: pointer;
+}
+.header__icon-user {
+    width: 12px;
+    height: 15px;
+}
+.header__icon-search {
+    width: 15px;
+    height: 14.7px;
+}
+.header__icon-bag {
+    width: 13.7px;
+    height: 17px;
+}
+.main {
+    max-width: 1440px;
+}
+.main__containers {
+    max-width: 1120px;
+    margin-left: 160px;
+}
+
+.slider-img {
+    width: 1120px;
+    height: 702px;
+}
+.purple__block {
+    position: absolute;
+    width: 149px;
+    height: 204px;
+    left: 1217px;
+    top: 195px;
+    background: #9E98DC;
+}
+.purple__block-text {
+    padding-left: 20px;
+    padding-top: 102px;
+    width: 124px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.purple__block-arrow {
+    padding: 4px 0px 0px 20px;
+}
+.pink__block {
+    position: relative;
+    width: 137px;
+    height: 273px;
+    margin-left: 1143px;
+    margin-top: -342px;
+    background: #FF8FE6;
+}
+.pink__block-text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    width: 69px;
+    padding-left: 21px;
+    padding-top: 149px;
+}
+.pink__block-arrow {
+    padding: 4px 0px 0px 21px;
+}
+.purple__block, .pink__block:hover {
+    cursor: pointer;
+}
+.slider__dots {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 532px;
+    width: 56px;
+    margin-top: 87px;
+}
+.slider__dots:hover {
+    cursor: pointer;
+}
+.slider__dot {
+    width: 12px;
+    height: 12px;
+    background: #EFEEF6;
+    border-radius: 50%;
+}
+.slider__dot-active {
+    background: #9E98DC;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.main__content {
+    margin-left: -160px;
+}
+.main__content-nav {
+    margin-top: 105px;
+    width: 416px;
+    height: 710px;
+    background: #EFEEF6;
+}
+.main__content-nav-list {
+    padding-left: 158px;
+    padding-top: 45px;
+}
+.main__content-nav-list-item {
+    padding-bottom: 23px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #5C6A79;
+}
+.main__content-nav-list-item:hover {
+    cursor: pointer;
+}
+.main__content-nav-list-item-active {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1C2A39;
+    text-transform: capitalize;
+    list-style-type: disc;
+}
+.main__content-nav-list-item-active::marker {
+    color: #756AD3;
+    font-size: 18px;
+}
+.main__content-catalog {
+    position: relative;
+    z-index: 2;
+    margin-left: 356px;
+}
+.main-content__book-catalog {
+    margin-top: -664px;
+    display: grid;
+    grid-template-columns:repeat(2, 424px);
+    grid-template-rows: repeat(3, 300px)
+}
+.button_load-more-button {
+    border: 1px solid #4C3DB2;
+    margin-top: 96px;
+    width: 176px;
+    height: 45px;
+    margin-left: 581px;
+    background-color: #fff;
+    margin-bottom: 74px;
+    font-weight: 700;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4C3DB2;
+}
+.button_load-more-button:hover {
+    cursor: pointer;
+}
